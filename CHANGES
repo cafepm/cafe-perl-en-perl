@@ -1,0 +1,9 @@
+CHANGES
+
+
+v0.3.0
+------
+
+- Added exception handling
+- Minor enhancements (survey.pl)
+- POD code handling (myoo2pod.pl)

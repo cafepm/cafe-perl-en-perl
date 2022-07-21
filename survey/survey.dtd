@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!ELEMENT sidebar (section+)>
+<!ELEMENT section (title, (subsection|item)+ )>
+<!ELEMENT subsection (title, url, item+)>
+<!ATTLIST subsection expand ( yes | no ) "no">
+<!ELEMENT item (title, url)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT url (#PCDATA)>
